@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Splendid Table - Home{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container" data-aos="fade-up" data-aos-delay="200">
+        <h1 class="display-3 fw-bold mb-4" data-aos="fade-up" data-aos-delay="400">Splendid Table at Northwestern</h1>
+        <p class="lead mb-5" data-aos="fade-up" data-aos-delay="600">A community project to bring Wildcats together — one shared story at a time</p>
+        <a href="{{ url_for('signup') }}" class="btn-custom btn-lg" data-aos="fade-up" data-aos-delay="800">
+            <i class="fas fa-calendar-check me-2"></i>Eat With Us
+        </a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="section">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 class="display-5 fw-bold">Why Splendid Table?</h2>
+                <p class="lead text-muted">Explore our human connection initiative</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card-custom h-100 p-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-star fa-3x text-warning"></i>
+                    </div>
+                    <h4>Impromptu Connections</h4>
+                    <p class="text-muted">Exercise your communication skills and appreciate others who are both like and unlike you.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card-custom h-100 p-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-heart fa-3x text-danger"></i>
+                    </div>
+                    <h4>Memorable Conversations</h4>
+                    <p class="text-muted">There is no structure or agenda to our meetings. It is simply 2-4 people bonding over a meal, finding the good in each other.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card-custom h-100 p-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-users fa-3x text-primary"></i>
+                    </div>
+                    <h4>A Place for Everyone</h4>
+                    <p class="text-muted">We want to hear about your unique stories and perspectives. Wildcats of all backgrounds are welcome to contribute their voices.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section bg-light">
+    <div class="container text-center">
+        <h2 class="display-6 fw-bold mb-4">We want to be your friends!</h2>
+        <p class="lead mb-5">Don't miss out on having your voice heard</p>
+        <a href="{{ url_for('signup') }}" class="btn-custom btn-lg">
+            <i class="fas fa-calendar-plus me-2"></i>Take a Seat at the Table
+        </a>
+    </div>
+</section>
+{% endblock %} 

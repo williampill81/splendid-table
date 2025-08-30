@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}About Us - Splendid Table{% endblock %}
+
+{% block content %}
+<!-- About Hero Section -->
+<section class="hero-section" style="background: linear-gradient(rgba(194, 194, 194, 0.8), rgba(97, 97, 97, 0.8)), 
+                                    url('https://wbo.com/wp-content/uploads/2019/10/Elder-Dining-Hall-seating-1-1500x1000.png'); background-position: center 40%;">
+    <div class="container" data-aos="fade-up" data-aos-delay="200">
+        <h1 class="display-3 fw-bold mb-4" data-aos="fade-up" data-aos-delay="400">About Splendid Table</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="600">A story of passion, gratitude, and stepping out of our comfort zones</p>
+    </div>
+</section>
+
+<!-- Our Story Section -->
+<section class="section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="display-5 fw-bold mb-4">Our Story</h2>
+                <p class="lead mb-4">Growing up a shy and sensitive introvert, I was fortunate to discover a Toastmasters International Gavel Club during COVID-19 distance learning.</p>
+                <p class="lead mb-4">The Gavel Club expanded through the pandemic and my four years of high school. After 208 club meetings, I learned that an uplifting and constructive community transforms a person's perspective about themselves, and the world around them.</p>
+                <p class="lead mb-4">Be the change you want to see in the world.</p>
+                <p class="lead mb-4" style="color: #6c757d; font-style: italic;">&mdash;&mdash;William Chang</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="card-custom p-4">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d9aa334b6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+                         alt="Our Restaurant" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section class="section bg-light">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 class="display-5 fw-bold">Meet Our Storyseaters</h2>
+                <p class="lead text-muted">Guiding dialogue, connecting Wildcats</p>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card-custom h-100 p-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-user-tie fa-4x text-secondary"></i>
+                    </div>
+                    <h5>Corey Zhang</h5>
+                    <p class="text-muted"></p>
+                    <p class="small">Sarah ensures every guest receives impeccable service and a warm welcome.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-5">
+                <div class="card-custom h-100 p-4 text-center">
+                    <div class="mb-3">
+                        <img src="/static/williamchang2.jpg" alt="William Chang" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover; object-position: center 10%; border: 1px solid #4E2A84;">
+                    </div>
+                    <h5>William Chang</h5>
+                    <p class="text-muted"></p>
+                    <p class="medium">Biological Sciences c/o 2029<br>Science Educator | Musician | Cultural Ambassador</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %} 

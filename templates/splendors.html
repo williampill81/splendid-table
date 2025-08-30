@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block title %}Splendors - Splendid Table{% endblock %}
+
+{% block content %}
+<!-- Splendors Hero Section -->
+<section class="hero-section" style="background: linear-gradient(rgba(194, 194, 194, 0.8), rgba(97, 97, 97, 0.8)), 
+                                    url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');">
+    <div class="container" data-aos="fade-up" data-aos-delay="200">
+        <h1 class="display-3 fw-bold mb-4" data-aos="fade-up" data-aos-delay="400">Splendors</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="600">A log of the amazing people we meet along our journey</p>
+    </div>
+</section>
+
+<!-- People Log Section -->
+<section class="section">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 class="display-5 fw-bold">People We've Met</h2>
+                <p class="lead text-muted">Stories and connections from our dining experiences</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card-custom h-100 p-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-users fa-3x text-primary"></i>
+                    </div>
+                    <h4>New Connections</h4>
+                    <p class="text-muted">Every meal brings new faces and stories to discover.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card-custom h-100 p-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-heart fa-3x text-danger"></i>
+                    </div>
+                    <h4>Shared Moments</h4>
+                    <p class="text-muted">Creating memories with people from all walks of life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Community Building Section -->
+<section class="section bg-light">
+    <div class="container text-center">
+        <h3 class="mb-4">Building Our Community</h3>
+        <p class="lead">Each person we meet adds to the rich tapestry of our Splendid Table experience.</p>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card-custom h-100 p-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-handshake fa-3x text-success"></i>
+                    </div>
+                    <h5>First Meetings</h5>
+                    <p class="text-muted">The beginning of new friendships and connections.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card-custom h-100 p-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-lightbulb fa-3x text-warning"></i>
+                    </div>
+                    <h5>Inspiring Stories</h5>
+                    <p class="text-muted">Learning from the experiences and wisdom of others.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card-custom h-100 p-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-globe fa-3x text-info"></i>
+                    </div>
+                    <h5>Diverse Perspectives</h5>
+                    <p class="text-muted">Embracing different backgrounds and viewpoints.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="section">
+    <div class="container text-center">
+        <h2 class="display-6 fw-bold mb-4">Join Our Journey</h2>
+        <p class="lead mb-5">Be part of our growing community of connections and stories</p>
+        <a href="{{ url_for('signup') }}" class="btn-custom btn-lg">
+            <i class="fas fa-calendar-check me-2"></i>Meet With Us
+        </a>
+    </div>
+</section>
+{% endblock %} 
