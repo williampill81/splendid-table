@@ -1,0 +1,1 @@
+web: python splendid_table.py
