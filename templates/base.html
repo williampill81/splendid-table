@@ -54,23 +54,26 @@
             text-align: center;
         }
         
-        .btn-custom {
-            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+        .btn-neumorphism {
+            background: #F8F5F0;
             border: none;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 25px;
+            color: #4E2A84;
+            padding: 15px 30px;
+            border-radius: 20px;
             font-weight: 600;
+            box-shadow: 
+                8px 8px 16px rgba(78, 42, 132, 0.1),
+                -8px -8px 16px rgba(255, 255, 255, 0.8);
             transition: all 0.3s ease;
-            text-decoration: none;
-            display: inline-block;
         }
-        
-        .btn-custom:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(139, 69, 19, 0.3);
-            color: white;
+
+        .btn-neumorphism:hover {
+            box-shadow: 
+                inset 8px 8px 16px rgba(78, 42, 132, 0.1),
+                inset -8px -8px 16px rgba(255, 255, 255, 0.8);
+            transform: translateY(1px);
         }
+
         
         .section {
             padding: 80px 0;
