@@ -114,8 +114,8 @@ The signup page includes a Calendly integration button:
 
 ## Team
 
-- **William Chang**: Founder, Biological Sciences Class of 2029, Science Educator, Musician, Cultural Ambassador
-- **Corey Zhang**: Team member and community builder
+- **William Chang**: Founder, Biological Sciences Class of 2029
+- **Corey Zhang**: Founder, CS + Econ Class of 2029
 
 ## Technologies Used
 
