@@ -9,7 +9,7 @@ Splendid Table is a human connection initiative that encourages Northwestern stu
 ## Features
 
 - **Home Page**: Welcoming hero section featuring Northwestern University campus imagery and clear call-to-action
-- **About Us Page**: Personal story of founder William Chang, team information, and project mission
+- **About Us Page**: Personal story of cofounder William Chang, team information, and project mission
 - **Splendors Page**: Community building section showcasing the people and connections made through the initiative
 - **Sign Up Page**: Integrated Calendly booking system for scheduling dining meetings
 - **Responsive Design**: Mobile-friendly design using Bootstrap 5 and modern CSS
